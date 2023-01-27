@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private el : ElementRef,
+    private rendered : Renderer2) { }
 
   ngOnInit(): void {
+  }
+
+
+  onMenuClick(){
+
+    this.rendered.selectRootElement(this.el.nativeElement.querySelector('my-navbar-collapse'),  false);
   }
 
 }

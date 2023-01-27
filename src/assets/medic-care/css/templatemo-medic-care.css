@@ -385,6 +385,7 @@ strong {
   transform: rotate(45deg);
 }
 
+
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(-45deg);
 }
