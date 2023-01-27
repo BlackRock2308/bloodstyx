@@ -7,6 +7,7 @@ import { HomeComponent } from './HomePage/components/home/home.component';
 import { NavbarComponent } from './HomePage/components/navbar/navbar.component';
 import { FooterComponent } from './HomePage/components/footer/footer.component';
 import { SliderComponent } from './HomePage/components/slider/slider.component';
+import { StepsComponent } from './HomePage/components/steps/steps.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SliderComponent } from './HomePage/components/slider/slider.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    SliderComponent
+    SliderComponent,
+    StepsComponent
   ],
   imports: [
     BrowserModule,

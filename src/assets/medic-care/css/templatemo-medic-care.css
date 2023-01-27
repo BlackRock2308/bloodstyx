@@ -15,7 +15,7 @@ https://templatemo.com/tm-566-medic-care
   --section-bg-color:             #F9F9F9;
   --dark-color:                   #000000;
   --title-color:                  #565758;
-  --p-color:                      #717275;
+  --p-color:                      #0e0e0f;
   --border-color:                 #eaeaea;
 
   --body-font-family:             'Open Sans', sans-serif;
@@ -438,7 +438,7 @@ strong {
 } 
 
 .timeline h3 {
-  background: var(--dark-color);
+  background: rgb(0, 158, 223);
 }
 
 .timeline::before {
@@ -480,7 +480,7 @@ strong {
   left: 100%;
   transform: translate(0, -50%);
   width: 0;
-  border-left: 10px solid var(--dark-color);
+  border-left: 10px solid rgb(0, 158, 223);
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
@@ -497,7 +497,7 @@ strong {
   right: 100%;
   transform: translate(0, -50%);
   width: 0;
-  border-right: 10px solid var(--dark-color);
+  border-right: 10px solid rgb(0, 158, 223);
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
 }
@@ -526,7 +526,7 @@ strong {
   position: relative;
   z-index: 100;
   font-size: var(--h3-font-size);
-  color: var(--primary-color);
+  color: rgb(194, 44, 37);
   display: block;
   text-align: center;
   line-height: 80px;
@@ -564,7 +564,7 @@ strong {
     left: auto;
     right: 100%;
     border-left: 0;
-    border-right: 10px solid var(--dark-color);
+    border-right: 10px solid rgb(0, 158, 223);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
   }
@@ -572,7 +572,7 @@ strong {
   .timeline-nodes:nth-child(even) h3::after {
     right: 100%;
     width: 0;
-    border-right: 10px solid var(--dark-color);
+    border-right: 10px solid rgb(0, 158, 223);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
   }
