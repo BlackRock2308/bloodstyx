@@ -8,6 +8,9 @@ import { NavbarComponent } from './HomePage/components/navbar/navbar.component';
 import { FooterComponent } from './HomePage/components/footer/footer.component';
 import { SliderComponent } from './HomePage/components/slider/slider.component';
 import { StepsComponent } from './HomePage/components/steps/steps.component';
+import { AccueilComponent } from './HomePage/landingPage/accueil/accueil.component';
+import { CharityComponent } from './HomePage/landingPage/charity/charity.component';
+import { DonationStepComponent } from './HomePage/components/donation-step/donation-step.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { StepsComponent } from './HomePage/components/steps/steps.component';
     NavbarComponent,
     FooterComponent,
     SliderComponent,
-    StepsComponent
+    StepsComponent,
+    AccueilComponent,
+    CharityComponent,
+    DonationStepComponent
   ],
   imports: [
     BrowserModule,
